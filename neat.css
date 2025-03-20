@@ -23,6 +23,7 @@ a {
 h1 {
     line-height: 1.8;
     color: var(--red);
+    text-align: center;
 }
 
 h2 {
