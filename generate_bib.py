@@ -137,14 +137,16 @@ def customizations(record):
     return record
 
 def convert(bibfile, pubtypes=['preprint', 'publication', 'lecturenote', 'nonarchival', 'book'], format='html'):
-    with open(bibfile) as bibtex_file:
+    with open(bibfile, encoding='utf-8') as bibtex_file:
         parser = BibTexParser()
         parser.customization = customizations
-        bibdict = bibtexparser.load(bibtex_file, parser=parser)
+        #bibdict = bibtexparser.load(bibtex_file, parser=parser)
+        bibdict = parser.parse_file(bibtex_file)
+
 
         for pubtype in pubtypes:
             pubs = get_pubtype(bibdict.entries, pubtype, format=format)
-            with open(f'{pubtype}.{format}_part', 'w') as o:
+            with open(f'{pubtype}.{format}_part', 'w', encoding='utf-8') as o:
                 o.write(pubs)
 
 

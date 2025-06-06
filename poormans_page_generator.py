@@ -12,14 +12,14 @@ def create_homepage(pubtypes):
 	convert('acceptedpapers.bib', pubtypes, format='html')
 
 	# load files
-	index = Path('index.html_template').read_text()
+	index = Path('index.html_template').read_text(encoding='utf-8')
 
 	for pubtype in pubtypes:
-		reflist = Path(f'{pubtype}.html_part').read_text()
+		reflist = Path(f'{pubtype}.html_part').read_text(encoding='utf-8')
 		index = index.replace(f'<object type="text/html" data="{pubtype}.html_part"></object>', reflist)
 
 	# write 
-	Path('index.html').write_text(index)
+	Path('index.html').write_text(index, encoding='utf-8')
 
 	# clean up
 	for pubtype in pubtypes:
@@ -31,17 +31,17 @@ def create_latex(pubtypes, baseurl, template):
 	convert('acceptedpapers.bib', pubtypes, format='tex')
 
 	# load files
-	index = Path(f'{template}.tex_template').read_text()
+	index = Path(f'{template}.tex_template').read_text(encoding='utf-8')
 
 	for pubtype in pubtypes:
-		reflist = Path(f'{pubtype}.tex_part').read_text()
+		reflist = Path(f'{pubtype}.tex_part').read_text(encoding='utf-8')
 		index = index.replace(f'\\input{{{pubtype}.tex_part}}', reflist)
 
 	# add baseurl to relative urls for a standalone pdf version
 	index = re.sub('\\\\href\{(?!http)', f'\\\\href{{{baseurl}', index)
 
 	# write 
-	Path(f'{template}.tex').write_text(index)
+	Path(f'{template}.tex').write_text(index, encoding='utf-8')
 
 def compile_latex(template, pubtypes):
 	cmd = ['latexmk', '-xelatex', '-shell-escape', f'{template}.tex']
