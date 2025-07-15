@@ -159,15 +159,15 @@ Please also check the dual submission policy of the other venue.</p>
 
 <table class="centered">
 
-    <tr><td>14.00h</td> <td> introduction</td> </tr>
-    <tr><td>14.10h</td> <td> keynote 1</td> </tr>
-    <tr><td>15.00h</td> <td> 1st oral talk</td> </tr>
-    <tr><td>15.15h</td> <td> pitch/introductions talks</td> </tr>
-    <tr><td>15.30h</td> <td> coffee break & poster session</td> </tr>
-    <tr><td>17.00h</td> <td> keynote 2 </td> </tr>
-    <tr><td>17.50h</td> <td> 2nd oral talk</td> </tr>
-    <!-- <tr><td>18.20h</td> <td> poster session </td> </tr>     -->
-    <tr><td>18.05h</td> <td> closing remarks</td> </tr>
+    <!-- <tr><td>9.00h</td> <td> introduction</td> </tr>
+    <tr><td>9.05h</td> <td> keynote 1</td> </tr>
+    <tr><td>10.00h</td> <td> 1st oral talk</td> </tr>
+    <tr><td>10.15h</td> <td> pitch/introductions talks</td> </tr>
+    <tr><td>10.30h</td> <td> coffee break & poster session</td> </tr>
+    <tr><td>12.00h</td> <td> keynote 2 </td> </tr>
+    <tr><td>12.50h</td> <td> 2nd oral talk</td> </tr> -->
+    <!-- <tr><td>11.20h</td> <td> poster session </td> </tr>     -->
+    <!-- <tr><td>13.05h</td> <td> closing remarks</td> </tr> -->
     <!-- <tr><td>13.50h</td> <td> 3rd and 4th oral talk</td> </tr>
     <tr><td>14.20h</td> <td> keynote 2 </td> </tr>
     <tr><td>15.20h</td> <td> coffee break </td> </tr>
@@ -175,6 +175,16 @@ Please also check the dual submission policy of the other venue.</p>
     <tr><td>16.55h</td> <td> pitch/introductions talks</td> </tr>
     <tr><td>17.15h</td> <td> poster session (group B)</td> </tr>
     <tr><td>18.15h</td> <td> conclusion and awards</td> </tr>   -->
+<tr><th>Timeslot</th><th>Activity</th>
+<tr><td>14.00-14.00</td><td>Welcome Note</td></tr>
+<tr><td>14.00-14.50</td><td>Keynote 1</td></tr>
+<tr><td>14.50-15.00</td><td>Spotlights 1</td></tr>
+<tr><td>15.00-15.50</td><td>Poster Session 1</td></tr>
+<tr><td>15.50-16.10</td><td>Oral Presentation</td></tr>
+<tr><td>16.10-16.20</td><td>Spotlights 2</td></tr>
+<tr><td>16.20-17.10</td><td>Poster Session 2</td></tr>
+<tr><td>17.10-18.00</td><td>Keynote 2</td></tr>
+<tr><td>18.00-18.05</td><td>Closing Remarks</td></tr>
 
 </table>
 
@@ -245,27 +255,27 @@ Please also check the dual submission policy of the other venue.</p>
 
 <h2 id="pc">Program Committee</h2>
 <ul class="twocol">
-<li>Alessia	Lucia Prete <i>(University of Siena)</i></li>
+<li>Alessia Lucia Prete <i>(University of Siena)</i></li>
 <li>Alice Moallemy-Oureh <i>(University of Kassel)</i></li>
 <li>Anatol Ehrlich <i>(University of Vienna)</i></li>
 <li>Andreas Roth <i>(TU Dortmund)</i></li>
 <li>Antonio Longa <i>(University of Trento)</i></li>
 <li>Celia Rubio-Madrigal <i>(CISPA Helmholtz Center for Information Security)</i></li>
-<li>Christopher	Blöcker <i>(University of Würzburg)</i></li>
+<li>Christopher Blöcker <i>(University of Würzburg)</i></li>
 <li>Christoph Sandrock <i>(TU Wien)</i></li>
 <li>David B. Blumenthal <i>(FAU)</i></li>
-<li>Duccio	Meconcelli <i>(University of Florence)</i></li>
+<li>Duccio  Meconcelli <i>(University of Florence)</i></li>
 <li>Fabrizio Frasca <i>(Technion)</i></li>
 <li>Federica Baccini <i>(Sapienza University of Rome)</i></li>
-<li>Filippo	Guerranti<i>(Technical University of Munich)</i></li>
-<li>Florian	Grötschla <i>(ETH Zürich)</i></li>
+<li>Filippo Guerranti <i>(Technical University of Munich)</i></li>
+<li>Florian Grötschla <i>(ETH Zürich)</i></li>
 <li>Florian Seiffarth <i>(University of Bonn)</i></li>
 <li>Francesco Giannini <i>(Scuola Normale Superiore)</i></li>
 <li>Franco Scarselli <i>(University of Siena)</i></li>
 <li>Giuseppe Alessio D'Inverno <i>(SISSA)</i></li>
 <li>Ilie Sarpe <i>(KTH Royal Institute of Technology)</i></li>
 <li>Ingo Scholtes <i>(University of Würzburg)</i></li>
-<li>Johannes Borg Sandberg Petersen<i>(TU Wien)</i></li>
+<li>Johannes Borg Sandberg Petersen <i>(TU Wien)</i></li>
 <li>Lorenz Kummer <i>(University of Vienna)</i></li>
 <li>Luis Müller <i>(RWTH Aachen)</i> </li>
 <li>Manuel Dileo <i>(University of Milan)</i></li>
@@ -280,14 +290,13 @@ Please also check the dual submission policy of the other venue.</p>
 <li>Sagar Malhotra <i>(TU Wien)</i></li>
 <li>Sara Bacconi <i>(University of Siena)</i></li>
 <li>Shota Saito <i>(UCL)</i></li>
-<li>Sourav Medya<i>(UIC)</i></li>
+<li>Sourav Medya <i>(UIC)</i></li>
 <li>Stefan Neumann <i>(TU Wien)</i></li>
 <li>Tamara Drucks <i>(TU Wien)</i></li>
 <li>Till Schulz <i>(Max Planck Institute of Biochemistry)</i></li>
 <li>Veronica Lachi <i>(FBK)</i></li>
-<li>Vincent	Grande <i>(RWTH Aachen University)</i></li>
+<li>Vincent Grande <i>(RWTH Aachen University)</i></li>
 </ul>
-
 
 
 <h2 id="history">Previous Workshops</h2>
