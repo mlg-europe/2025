@@ -48,30 +48,34 @@ Mining and Learning with Graphs</h1>
   <li>All deadlines expire 23:59 AoE</li>
 </ul>
 
-<h2 id="keynotes">Keynote Speakers</h2>
 
-<ul class="keynotes">
-<li class="center">
+<h2 id="keynotes">Keynotes</h2>
+
+
+
+
+  <p class="center">
   <img src="https://rusty1s.github.io/dist/46c1d914fb6cc4d67d96c26b2fbd2573.png" width="150px" height="auto"><br/>
   <a href="https://rusty1s.github.io/#/" target=_blank>Matthias Fey</a><br />
   <a href="https://kumo.ai/" target=_blank>kumo.ai</a>
-</li>
-<li class="center">
-  <!-- <h3>Embedding and Clustering of Attributed Multiplex Networks</h3> -->
-  <p>Matthias is the creator of PyTorch Geometric and a founding engineer at kumo.ai. He obtained his PhD in Machine Learning on graphs from the TU Dortmund University. His main area of interest lies in the generalization of Deep Learning methods to a wide range of applications related to structured data.
-  </p> 
-</li>
-<li class="center">
+  </p>
+
+  <h3>Foundation Models for In-Context Learning on Relational Data</h3>
+  <p>This talk explores how foundation models, originally developed for unstructured data such as text and images, are now enabling in-context learning on structured relational data. We will examine how recent developments allow these models to generalize across diverse tabular prediction tasks without retraining, by leveraging schema-aware representations and attention mechanisms over multi-table structures. The session will highlight emerging research directions at the intersection of deep learning, graph-based transformer architectures, and multi-modal relational datasets.</p>
+
+
+
+  <p class="center">
   <img src="rebekka.png" width="150px" height="auto"><br/>
   <a href="https://sites.google.com/view/rebekkaburkholz/" target=_blank>Rebekka Burkholz</a><br />
   Helmholtz Center CISPA
-</li>
-<li class="center">
-  <!-- <h3>Exploiting Symmetries for Learning in Deep Weight Spaces</h3> -->
-  <p>Rebekka is a faculty member at the CISPA Helmholtz Center for Information Security in Saarbrücken, where she leads the relational machine learning group. Her main goal to develop efficient deep learning algorithms that are robust to noise, require small sample sizes, and are generally applicable in the sciences. Her work is founded in theory with implications for real world applications and is often characterized by a complex network science perspective. Her favourite applications and sources of inspiration are currently the biomedical domain, pharmacy, and physics. Her group is supported by the ERC starting grant SPARSE-ML.
   </p>
+  <h3>Graphs as Computational or Data Structure? A Tale of Two Functions</h3>
+  <p>Message passing graph neural networks (GNNs) are a powerful class of machine learning models to learn on and from graphs. By design, graphs do not only serve as data but are also utilised as computational structure. However, not all graphs are equally effective in facilitating vertex communication, often suffering from challenges like over-squashing and over-smoothing. In this talk, we explore how these issues are intertwined and propose graph rewiring strategies to mitigate their effects. Our analysis further reveals that a critical yet often overlooked factor is the limited trainability of GNNs. While techniques such as balanced initialization, dynamic rescaling, and architectural innovations can improve trainability, we show that delaying the learning of specific layers can sometimes enhance generalization, particularly in the context of homophilic tasks. Synthesizing these insights, we will propose a potential path toward multi-purpose GNN architectures and learning algorithms that disentangle the conflicting roles of graphs as data and computational structure.</p>
 </ul>
-
+</td>
+</tr>
+</table>
 
 <h2 id="call">Call for Papers</h2>
 
@@ -171,31 +175,33 @@ Please also check the dual submission policy of the other venue.</p>
     </td> </tr>
     <tr><td valign="top">12.00h</td> <td> <b>Contributed Talk</b><br />
     Katharina Limbeck, Lydia Mezrag, Guy Wolf, Bastian Rieck:<br />
-    Geometry-Aware Edge Pooling for Graph Neural Networks.
+    <i>Geometry-Aware Edge Pooling for Graph Neural Networks.</i>
     </td> </tr>
     <tr><td valign="top">12.15h</td> <td> <b>Contributed Talk</b><br />
     Patrick Indri, Tamara Drucks, Thomas Gärtner:<br />
-    Private and Expressive Graph Representations.
+    <i>Private and Expressive Graph Representations.</i>
     </td> </tr>
     <tr><td valign="top">12.30h</td> <td> <b>Lunch Break</b></td> </tr>
-    <tr><td valign="top">14.00h</td> <td> <b>Keynote</b><br />Matthias Fey</td></tr>
+    <tr><td valign="top">14.00h</td> <td> <b>Keynote</b><br />Matthias Fey<br />
+    <i>Foundation Models for In-Context Learning on Relational Data</i>
+    </td></tr>
     <tr><td valign="top">15.00h</td> <td> <b>Contributed Talk</b><br />
     Christoph Sandrock, Sebastian Lüderssen, Maximilian Thiessen, Thomas Gärtner:<br />
-    Efficient Minimization of Peakless Functions on Bounded-degree Graphs.
+    <i>Efficient Minimization of Peakless Functions on Bounded-degree Graphs.</i>
     </td> </tr>
     <tr><td valign="top">15.15h</td> <td> <b>Contributed Talk</b><br />
     Dionisia Naddeo, Tiago Azevedo, Nicola Toschi:<br />
-    Do We Need Curved Spaces? A Critical Look at Hyperbolic Graph Learning in Graph Classification.
+    <i>Do We Need Curved Spaces? A Critical Look at Hyperbolic Graph Learning in Graph Classification.</i>
     </td> </tr>
     <tr><td valign="top">15.30h</td> <td> <b>Spotlight Talks (Group B)</b></td> </tr>
     <tr><td valign="top">15.45h</td> <td> <b>Coffee + Poster Session (Group B)</b> </td> </tr>
      <tr><td valign="top">17.15h</td> <td> <b>Contributed Talk</b><br />
      Pavel Prochazka, Michal Mares, Lukas Bajer:<br />
-     Contrastive Learning as Optimal Homophilic Graph Structure Learning.
+    <i> Contrastive Learning as Optimal Homophilic Graph Structure Learning.</i>
     </td> </tr>
     <tr><td valign="top">17.30h</td> <td> <b>Contributed Talk</b><br />
      Adrian Arnaiz-Rodriguez, Federico Errica : <br />
-     Oversmoothing, "Oversquashing", Heterophily, Long-Range, and more: Demystifying Common Beliefs in Graph Machine Learning.
+    <i> Oversmoothing, "Oversquashing", Heterophily, Long-Range, and more: Demystifying Common Beliefs in Graph Machine Learning.</i>
     </td> </tr>
     <tr><td valign="top">17.45h</td> <td> <b>Closing remarks and Awards</b></td> </tr>
 
